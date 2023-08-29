@@ -1,8 +1,11 @@
 import React from 'react'
  import {dataName} from '../Data'
  import './Cart.css'
+import NavBar from './NavBar'
 const Cart = () => {
   return (
+    <>
+    <NavBar/>
     <div className='parentBox'>
        
   {
@@ -31,6 +34,7 @@ const Cart = () => {
     })
   }
     </div>
+    </>
   )
 }
 

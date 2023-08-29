@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import BeachLogo2 from '../asset/BaechLogo.png';
 
 import './NavBar.css';
 function NavBar() {
@@ -11,7 +12,7 @@ function NavBar() {
     <Navbar expand="lg" className="controlWholeNavBar">
       <Container fluid>
         {/* //below put logo */}
-        <Navbar.Brand href="#"><img src="../BeachLogo.png"/></Navbar.Brand>
+        <Navbar.Brand href="#"><img src={BeachLogo2}  className='targetLogo' alt='beachLogo'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -19,10 +20,12 @@ function NavBar() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1" className='targetEachNavLink'>Home</Nav.Link>
-            <Nav.Link href="#action2" className='targetEachNavLink'>Cover Up</Nav.Link>
-            <Nav.Link href="#action2" className='targetEachNavLink'>Swim Wear</Nav.Link>
-            <Nav.Link href="#action2" className='targetEachNavLink'>Accessories</Nav.Link>
+            {/*  below / means home page or landing page  */}
+            <Nav.Link href="/" className='targetEachNavLink'>Home</Nav.Link>
+            {/* -- have to be the same name as path */}
+            <Nav.Link href="CoverUp" className='targetEachNavLink'>Cover Up</Nav.Link>
+            <Nav.Link href="SwimWear" className='targetEachNavLink'>Swim Wear</Nav.Link>
+            <Nav.Link href="Accessories" className='targetEachNavLink'>Accessories</Nav.Link>
            
              
       
