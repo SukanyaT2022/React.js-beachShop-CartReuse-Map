@@ -4,6 +4,7 @@ import Cart from './component/Cart';
 import NavBar from './component/NavBar';
 import ContactPage from './component/ContactPage';
 import { Route, Routes } from 'react-router-dom';
+import { Navbar } from 'react-bootstrap';
 
 const App = () => {
   return (
@@ -12,11 +13,12 @@ const App = () => {
       <Cart/>
       <ContactPage/> */}
       {/* we connect page first we go index.js we wrap everything in broweserRoter */}
+      <NavBar/>
       <Routes>
         {/* / inside path means homepage */}
         <Route path='/' element={<Cart/>}/>
         <Route path='contact' element={<ContactPage/>}/>
-      
+    
        
       </Routes>
     </div>
