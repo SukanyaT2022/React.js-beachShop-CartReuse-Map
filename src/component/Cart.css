@@ -1,9 +1,4 @@
-.parentBox{
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    flex-wrap: wrap;
-}
+
 .cartBox{
     border: 2px solid red;
     width: 300px;

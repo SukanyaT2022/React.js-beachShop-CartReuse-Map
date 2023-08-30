@@ -11,7 +11,9 @@ root.render(
   //where we wrap the page for router--type browserRouter
   <BrowserRouter>
   <React.StrictMode>
+    {/* we also can put <navBar/> here then it go to all the page */}
     <App />
+
   </React.StrictMode>
   </BrowserRouter>
 );
