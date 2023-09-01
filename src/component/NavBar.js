@@ -26,6 +26,7 @@ function NavBar() {
             <Nav.Link href="CoverUp" className='targetEachNavLink'>Cover Up</Nav.Link>
             <Nav.Link href="SwimWear" className='targetEachNavLink'>Swim Wear</Nav.Link>
             <Nav.Link href="Accessories" className='targetEachNavLink'>Accessories</Nav.Link>
+            <Nav.Link href="ContactPage" className='targetEachNavLink'>Contact Us</Nav.Link>
            
              
       

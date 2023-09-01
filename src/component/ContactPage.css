@@ -1,0 +1,22 @@
+.contactForm{
+    width: 50%;
+    margin: auto;
+    background-color: aqua;
+}
+.mainBox-contact{
+display: flex;
+width: 80%;
+margin: auto;
+}
+.imageSection-contact{
+background-color: blueviolet;
+width: 50%;
+}
+.contactForm input{
+    width: 50%;
+    margin: 10px 0px;
+}
+.contactForm label{
+   width: 20%;
+   margin-left: 10px;
+}

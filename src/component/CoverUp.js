@@ -8,7 +8,7 @@ const CoverUp = () => {
   return (
     <>
 
-    <h2>Cover Up</h2>
+    <h2 className='coverUpH2'>Cover Up</h2>
     <div className='parentBox'>
 {
   CoverUpData.map((valData)=>{

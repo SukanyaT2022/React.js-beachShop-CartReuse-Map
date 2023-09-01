@@ -1,6 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    overflow-x: hidden;
+}
+
+
 .parentBox{
     display: flex;
     justify-content: center;
     gap: 25px;
     flex-wrap: wrap;
+ 
+    width: 90%;
+    margin: auto;
+  margin-top: 50px;
+
+}
+.coverUpH2{
+   text-align: center;
+   margin-top: 50px;
 }

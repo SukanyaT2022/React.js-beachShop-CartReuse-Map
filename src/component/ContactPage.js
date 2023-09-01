@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './ContactPage.css';
 
 function ContactPage() {
     const [name,setName] = useState('')
@@ -21,7 +22,14 @@ alert('Succesfully Submitted')
   return (
     <>
   <h2>Contact Us</h2>
-  {/* <form onSubmit={handleSubmit}>
+  <div className='mainBox-contact'> 
+  <div className='imageSection-contact'>
+<p>
+If you have ideas of things you would like to see in upcoming editions in 2022. Representation & Growth. Arts & Culture. Italian Festivals. Promoting Italian Culture. Cultural Activities. Servic
+</p>
+  </div>
+
+  <form onSubmit={handleSubmit} className='contactForm'>
 <div>
     <label>Name</label>
     <input type='text' value={name} onChange={(e)=>setName(e.target.value)}/>
@@ -36,11 +44,12 @@ alert('Succesfully Submitted')
     <textarea value={message} onChange={(e)=>setMessage(e.target.value)}/>
 </div>
 <button type='submit'>Submit</button>
-  </form> */}
-<div>
+  </form>
+  </div>
+{/* <div>
     <p>{hi}</p>
     <button onClick={()=>setHi("bye")}>Submit</button>
-</div>
+</div> */}
 {/* button onClick
 form onSubmit 
 input onChange */}
